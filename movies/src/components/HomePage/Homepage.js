@@ -4,8 +4,6 @@ import React, { useEffect, useState } from 'react'
 import MovieItems from '../Movies/MovieItems'
 import { Link } from 'react-router-dom'
 import { getAllMovies } from '../../api-helper/api-helpers'
-import './Homepage.css'
-
 
 const Homepage = () => {
    const [movies, setmovies] = useState([]);
